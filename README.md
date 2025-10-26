@@ -103,3 +103,10 @@ Represents a financial transaction (deposit, withdrawal, or transfer).
 
 **Relationships:**  
 - `account`: Many-to-one relationship with Account (each transaction is linked to one account)
+
+## Screenshots : 
+<img width="1459" height="501" alt="{9C8B8B6F-4691-4358-A11F-73CE7CF92BD6}" src="https://github.com/user-attachments/assets/fc3b01e3-db81-47c9-965b-61b868e0bcf2" />
+<img width="1479" height="629" alt="image" src="https://github.com/user-attachments/assets/e08b55dc-ecdb-4cb6-b4c7-bc6db911ff07" />
+## Stored data using the APIs in the SQLlite database
+<img width="1357" height="351" alt="{9133C6AE-EE88-44E7-8B89-D93B9DC86BF3}" src="https://github.com/user-attachments/assets/5a1afce8-4f31-4e86-b1b5-af4fa06be836" />
+
