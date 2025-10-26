@@ -18,15 +18,21 @@ The hackathon MVP focuses on the **primary use case: Account Creation**, includi
 
 ## Project Structure
 
+## Project Structure
+
 SmartBank/
-  smartbank/ # Django project root (settings, urls, wsgi)
-  banking/ # Single app for authentication and account creation
-    models.py # User and Account models
-    serializers.py # Data validation for registration/login and account creation
-    views.py # Endpoints: register, login, create account
-    permissions.py # Role-based access control
-    urls.py # API routes
-    tests.py # Unit and integration tests
+│
+├── smartbank/        # Django project root (settings, urls, wsgi)
+│
+└── banking/          # Single app for authentication and account creation
+    ├── models.py         # User and Account models
+    ├── serializers.py    # Data validation for registration/login and account creation
+    ├── views.py          # Endpoints: register, login, create account
+    ├── permissions.py    # Role-based access control
+    ├── urls.py           # API routes
+    ├── tests.py          # Unit and integration tests
+    └── utils.py          # Helper functions (optional)
+
 
 
 
