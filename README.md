@@ -103,6 +103,8 @@ Represents a financial transaction (deposit, withdrawal, or transfer).
 
 **Relationships:**  
 - `account`: Many-to-one relationship with Account (each transaction is linked to one account)
+## Running Tests
+python manage.py test banking
 
 ## Screenshots : 
 <img width="1459" height="501" alt="{9C8B8B6F-4691-4358-A11F-73CE7CF92BD6}" src="https://github.com/user-attachments/assets/fc3b01e3-db81-47c9-965b-61b868e0bcf2" />
