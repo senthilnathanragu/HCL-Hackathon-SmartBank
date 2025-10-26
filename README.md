@@ -1,11 +1,5 @@
 # SmartBank - Modular Banking Backend
 
-## Overview
-SmartBank is a secure, scalable backend system built with Django and Django REST Framework (DRF) for managing core banking operations.  
-The hackathon MVP focuses on the **primary use case: Account Creation**, including user authentication, account management, and security features.
-
----
-
 ## Tech Stack
 - **Backend Framework:** Django, Django REST Framework (DRF)  
 - **Database:** SQLite (default, lightweight for development)  
